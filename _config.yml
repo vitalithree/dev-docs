@@ -22,8 +22,8 @@ title: GameBus API Guide
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Here we are covering the steps to familiarize yourself with GameBus API.
-domain: devdocsnew.gamebus.eu      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://devdocsnew.gamebus.eu/  # the base hostname and protocol for your site, e.g. http://example.com
+domain: devdocs.gamebus.eu      # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://devdocs.gamebus.eu/  # the base hostname and protocol for your site, e.g. http://example.com
 # baseurl: /dev-docs      # place folder name if the site is served in a subfolder
 github_username:  vitalithree
 
