@@ -1,0 +1,184 @@
+{
+  "info": {
+    "_postman_id": "f5060b36-fec1-4ac6-b3b3-7242e859dd56",
+    "name": "GameBus",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Activities",
+      "item": [
+        {
+          "name": "Get Single Activity",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{api.url}}/activities/{{activity.id}}",
+              "host": [
+                "{{api.url}}"
+              ],
+              "path": [
+                "activities",
+                "{{activity.id}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Activity",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "activity",
+                  "value": "{{activity.json}}",
+                  "type": "text"
+                }
+              ]
+            },
+            "url": {
+              "raw": "{{api.url}}/activities?dryrun=false",
+              "host": [
+                "{{api.url}}"
+              ],
+              "path": [
+                "activities"
+              ],
+              "query": [
+                {
+                  "key": "dryrun",
+                  "value": "false"
+                }
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Activity",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{api.url}}/activities/{{activity.id.delete}}",
+              "host": [
+                "{{api.url}}"
+              ],
+              "path": [
+                "activities",
+                "{{activity.id.delete}}"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "protocolProfileBehavior": {}
+    },
+    {
+      "name": "Players",
+      "item": [
+        {
+          "name": "Get Single Player",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{api.url}}/players/{{player.id}}",
+              "host": [
+                "{{api.url}}"
+              ],
+              "path": [
+                "players",
+                "{{player.id}}"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get All Activities",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{api.url}}/players/{{player.id}}/activities",
+              "host": [
+                "{{api.url}}"
+              ],
+              "path": [
+                "players",
+                "{{player.id}}",
+                "activities"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "protocolProfileBehavior": {}
+    },
+    {
+      "name": "Users",
+      "item": [
+        {
+          "name": "Get Single User",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{api.url}}/users/{{user.id}}",
+              "host": [
+                "{{api.url}}"
+              ],
+              "path": [
+                "users",
+                "{{user.id}}"
+              ]
+            }
+          },
+          "response": []
+        }
+      ],
+      "protocolProfileBehavior": {}
+    }
+  ],
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{auth.token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "id": "d23ae0a3-8d74-4d6a-8bfc-4ddd57d113eb",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "id": "3aa0d11f-ed81-40f9-9e3b-2c181af7f5cd",
+        "type": "text/javascript",
+        "exec": [
+          ""
+        ]
+      }
+    }
+  ],
+  "protocolProfileBehavior": {}
+}

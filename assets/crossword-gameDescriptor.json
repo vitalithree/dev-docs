@@ -1,0 +1,321 @@
+{
+  "id": 68,
+  "translationKey": "CROSSWORD",
+  "image": "http://localhost:8024/v2/uploads/public/brand/gd/icon/crossword.svg",
+  "type": "COGNITIVE",
+  "propertyPermissions": [
+    {
+      "id": 713,
+      "index": 0,
+      "lastUpdate": null,
+      "decisionNote": null,
+      "state": "PUBLIC_APPROVED",
+      "property": {
+        "id": 112,
+        "translationKey": "PUZZLE_DATA",
+        "baseUnit": "String text",
+        "inputType": "PUZZLEDUMP",
+        "aggregationStrategy": "SUM",
+        "propertyType": {
+          "id": 6,
+          "type": "STRING",
+          "operators": [
+            {
+              "id": 1,
+              "operator": "EQUAL"
+            },
+            {
+              "id": 2,
+              "operator": "DIFFERENT"
+            },
+            {
+              "id": 6,
+              "operator": "CONTAINS"
+            }
+          ]
+        }
+      },
+      "dataProvider": {
+        "id": 1,
+        "name": "GameBus",
+        "image": "http://localhost:8024/v2/uploads/public/brand/dp/GameBus.png",
+        "isConnected": false
+      },
+      "allowedValues": []
+    },
+    {
+      "id": 714,
+      "index": 0,
+      "lastUpdate": null,
+      "decisionNote": null,
+      "state": "PUBLIC_APPROVED",
+      "property": {
+        "id": 113,
+        "translationKey": "WORD_ENTERED",
+        "baseUnit": "String text",
+        "inputType": "STRING",
+        "aggregationStrategy": "SUM",
+        "propertyType": {
+          "id": 6,
+          "type": "STRING",
+          "operators": [
+            {
+              "id": 1,
+              "operator": "EQUAL"
+            },
+            {
+              "id": 2,
+              "operator": "DIFFERENT"
+            },
+            {
+              "id": 6,
+              "operator": "CONTAINS"
+            }
+          ]
+        }
+      },
+      "dataProvider": {
+        "id": 1,
+        "name": "GameBus",
+        "image": "http://localhost:8024/v2/uploads/public/brand/dp/GameBus.png",
+        "isConnected": false
+      },
+      "allowedValues": []
+    },
+    {
+      "id": 715,
+      "index": 0,
+      "lastUpdate": null,
+      "decisionNote": null,
+      "state": "PUBLIC_APPROVED",
+      "property": {
+        "id": 114,
+        "translationKey": "WORD_CORRECT",
+        "baseUnit": "Boolean",
+        "inputType": "BOOL",
+        "aggregationStrategy": "SUM",
+        "propertyType": {
+          "id": 1,
+          "type": "BOOL",
+          "operators": [
+            {
+              "id": 1,
+              "operator": "EQUAL"
+            },
+            {
+              "id": 2,
+              "operator": "DIFFERENT"
+            }
+          ]
+        }
+      },
+      "dataProvider": {
+        "id": 1,
+        "name": "GameBus",
+        "image": "http://localhost:8024/v2/uploads/public/brand/dp/GameBus.png",
+        "isConnected": false
+      },
+      "allowedValues": []
+    },
+    {
+      "id": 716,
+      "index": 0,
+      "lastUpdate": null,
+      "decisionNote": null,
+      "state": "PUBLIC_APPROVED",
+      "property": {
+        "id": 115,
+        "translationKey": "PUZZLE_COMPLETE",
+        "baseUnit": "Boolean",
+        "inputType": "BOOL",
+        "aggregationStrategy": "SUM",
+        "propertyType": {
+          "id": 1,
+          "type": "BOOL",
+          "operators": [
+            {
+              "id": 1,
+              "operator": "EQUAL"
+            },
+            {
+              "id": 2,
+              "operator": "DIFFERENT"
+            }
+          ]
+        }
+      },
+      "dataProvider": {
+        "id": 1,
+        "name": "GameBus",
+        "image": "http://localhost:8024/v2/uploads/public/brand/dp/GameBus.png",
+        "isConnected": false
+      },
+      "allowedValues": []
+    },
+    {
+      "id": 717,
+      "index": 0,
+      "lastUpdate": null,
+      "decisionNote": null,
+      "state": "PUBLIC_APPROVED",
+      "property": {
+        "id": 116,
+        "translationKey": "THROUGH_HINT",
+        "baseUnit": "Boolean",
+        "inputType": "BOOL",
+        "aggregationStrategy": "SUM",
+        "propertyType": {
+          "id": 1,
+          "type": "BOOL",
+          "operators": [
+            {
+              "id": 1,
+              "operator": "EQUAL"
+            },
+            {
+              "id": 2,
+              "operator": "DIFFERENT"
+            }
+          ]
+        }
+      },
+      "dataProvider": {
+        "id": 1,
+        "name": "GameBus",
+        "image": "http://localhost:8024/v2/uploads/public/brand/dp/GameBus.png",
+        "isConnected": false
+      },
+      "allowedValues": []
+    },
+    {
+      "id": 718,
+      "index": 0,
+      "lastUpdate": null,
+      "decisionNote": null,
+      "state": "PUBLIC_APPROVED",
+      "property": {
+        "id": 117,
+        "translationKey": "CROSSWORD_POINTS",
+        "baseUnit": "count",
+        "inputType": "INT",
+        "aggregationStrategy": "SUM",
+        "propertyType": {
+          "id": 5,
+          "type": "INT",
+          "operators": [
+            {
+              "id": 1,
+              "operator": "EQUAL"
+            },
+            {
+              "id": 2,
+              "operator": "DIFFERENT"
+            },
+            {
+              "id": 3,
+              "operator": "SMALLER_OR_EQUAL"
+            },
+            {
+              "id": 4,
+              "operator": "STRICTLY_GREATER"
+            }
+          ]
+        }
+      },
+      "dataProvider": {
+        "id": 1,
+        "name": "GameBus",
+        "image": "http://localhost:8024/v2/uploads/public/brand/dp/GameBus.png",
+        "isConnected": false
+      },
+      "allowedValues": []
+    },
+    {
+      "id": 719,
+      "index": 0,
+      "lastUpdate": null,
+      "decisionNote": null,
+      "state": "PUBLIC_APPROVED",
+      "property": {
+        "id": 118,
+        "translationKey": "PUZZLE_ID",
+        "baseUnit": "ID",
+        "inputType": "INT",
+        "aggregationStrategy": "SUM",
+        "propertyType": {
+          "id": 5,
+          "type": "INT",
+          "operators": [
+            {
+              "id": 1,
+              "operator": "EQUAL"
+            },
+            {
+              "id": 2,
+              "operator": "DIFFERENT"
+            },
+            {
+              "id": 3,
+              "operator": "SMALLER_OR_EQUAL"
+            },
+            {
+              "id": 4,
+              "operator": "STRICTLY_GREATER"
+            }
+          ]
+        }
+      },
+      "dataProvider": {
+        "id": 1,
+        "name": "GameBus",
+        "image": "http://localhost:8024/v2/uploads/public/brand/dp/GameBus.png",
+        "isConnected": false
+      },
+      "allowedValues": []
+    },
+    {
+      "id": 720,
+      "index": 0,
+      "lastUpdate": null,
+      "decisionNote": null,
+      "state": "PUBLIC_APPROVED",
+      "property": {
+        "id": 119,
+        "translationKey": "COMPLEXITY",
+        "baseUnit": "Complexity",
+        "inputType": "INT",
+        "aggregationStrategy": "SUM",
+        "propertyType": {
+          "id": 5,
+          "type": "INT",
+          "operators": [
+            {
+              "id": 1,
+              "operator": "EQUAL"
+            },
+            {
+              "id": 2,
+              "operator": "DIFFERENT"
+            },
+            {
+              "id": 3,
+              "operator": "SMALLER_OR_EQUAL"
+            },
+            {
+              "id": 4,
+              "operator": "STRICTLY_GREATER"
+            }
+          ]
+        }
+      },
+      "dataProvider": {
+        "id": 1,
+        "name": "GameBus",
+        "image": "http://localhost:8024/v2/uploads/public/brand/dp/GameBus.png",
+        "isConnected": false
+      },
+      "allowedValues": []
+    }
+  ],
+  "isAggregate": null
+}
