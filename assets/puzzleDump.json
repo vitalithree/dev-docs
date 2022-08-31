@@ -1,0 +1,207 @@
+{
+  "id": "1",
+  "balance": 100,
+  "duration": 9225,
+  "selected": 1,
+  "words": [
+    {
+      "x": 1,
+      "y": 0,
+      "d": "y",
+      "word": "liechtenstein",
+      "input": "---*---------",
+      "question": "Europees landje",
+      "complete": null
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "d": "x",
+      "word": "dimmen",
+      "input": "------",
+      "question": "Dempen van licht",
+      "complete": null
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "d": "y",
+      "word": "imposant",
+      "input": "---*----",
+      "question": "Indrukwekkend",
+      "complete": null
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "d": "x",
+      "word": "echo",
+      "input": "----",
+      "question": "Nagalm",
+      "complete": null
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "d": "x",
+      "word": "staaltje",
+      "input": "--------",
+      "question": "Voorbeeld",
+      "complete": null
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "d": "y",
+      "word": "snee",
+      "input": "----",
+      "question": "Jaap",
+      "complete": null
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "d": "x",
+      "word": "eldorado",
+      "input": "--------",
+      "question": "Paradijs",
+      "complete": null
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "d": "y",
+      "word": "noodsein",
+      "input": "--*-----",
+      "question": "Alarm",
+      "complete": null
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "d": "x",
+      "word": "opmaak",
+      "input": "------",
+      "question": "Lay-out",
+      "complete": null
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "d": "y",
+      "word": "emir",
+      "input": "----",
+      "question": "Arabische titel",
+      "complete": null
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "d": "x",
+      "word": "snit",
+      "input": "----",
+      "question": "Coupe",
+      "complete": null
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "d": "y",
+      "word": "tweeluik",
+      "input": "---**---",
+      "question": "Soort schilderij",
+      "complete": null
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "d": "x",
+      "word": "bikini",
+      "input": "------",
+      "question": "Badkleding",
+      "complete": null
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "d": "y",
+      "word": "mais",
+      "input": "----",
+      "question": "Graansoort",
+      "complete": null
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "d": "x",
+      "word": "stamelen",
+      "input": "--------",
+      "question": "Stotteren",
+      "complete": null
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "d": "x",
+      "word": "eentonig",
+      "input": "--------",
+      "question": "Monotoon",
+      "complete": null
+    },
+    {
+      "x": 11,
+      "y": 0,
+      "d": "y",
+      "word": "eaudetoilette",
+      "input": "**-----------",
+      "question": "Reukwater",
+      "complete": null
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "d": "x",
+      "word": "bits",
+      "input": "----",
+      "question": "Kortaf",
+      "complete": null
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "d": "y",
+      "word": "broccoli",
+      "input": "--*---*-",
+      "question": "Groente",
+      "complete": null
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "d": "x",
+      "word": "chef",
+      "input": "----",
+      "question": "Baas",
+      "complete": null
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "d": "x",
+      "word": "kalmte",
+      "input": "------",
+      "question": "Rust",
+      "complete": null
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "d": "y",
+      "word": "nike",
+      "input": "----",
+      "question": "Godin der overwinning",
+      "complete": null
+    }
+  ],
+  "focus": 0
+}

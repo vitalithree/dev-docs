@@ -8,26 +8,26 @@ The following sections cover the initial steps to familiarize yourself with Game
 
 ## What do I need to know beforehand?
 
-![]({{ site.baseurl }}/assets/images/logo-gamebus.png){: width="4%" } GameBus
+![](/assets/images/logo-gamebus.png){: width="4%" } GameBus
 
 First of all try to get all the information you need about the platform.
 
 For more info please see: <https://www.gamebus.eu/>
 
-![]({{ site.baseurl }}/assets/images/logo-chrome.svg){: width="4%" } Chrome DevTools
+![](/assets/images/logo-chrome.svg){: width="4%" } Chrome DevTools
 
 Chrome has a very useful tool for developers (or anyone interested) that makes every HTTP request cycle made by the browser accessible in a very user-friendly way.
 
 For more info please see: <https://developers.google.com/web/tools/chrome-devtools/>
 
-![]({{ site.baseurl }}/assets/images/logo-postman.svg){: width="13%" }
+![](/assets/images/logo-postman.svg){: width="13%" }
 
 To get a very good understanding of how the API does its magic requesting actions and getting data as response, **Postman** acts, let's say, as your magnifying glass. Not only to see way better what's going on, but to also easily make HTTP requests, get responses, and save them to be executed how many times you want.
 
 For more info please see: <https://learning.postman.com/>
 
 
-![]({{ site.baseurl }}/assets/images/logo-unirest-java.png){: width="4%" } Unirest-Java
+![](/assets/images/logo-unirest-java.png){: width="4%" } Unirest-Java
 
 A very easy to use lightweight HTTP client library.
 
@@ -65,7 +65,7 @@ This address points to a **test server**, so make sure to use it as all data sto
 
 The sign-up screen:
 
-![]({{ site.baseurl }}/assets/images/gamebus-sign-up-screen.png)
+![](/assets/images/gamebus-sign-up-screen.png)
 
 That's it!
 
@@ -81,13 +81,13 @@ To have a look at all the requests that are being made:
 
 The **Network** tab displays information of all requests made by the browser. For every action that demands a client-server interaction the application will trigger one or more requests, and by selecting one of them the associated information will be displayed.
 
-![]({{ site.baseurl }}/assets/images/chrome-dev-token-1.png)
+![](/assets/images/chrome-dev-token-1.png)
 
 Information such as **Headers** and **Response** are very useful, and can give a good picture of what kind of request was made behind each action, and possible insights about the related data and resource used to retrieve it.
 
-![]({{ site.baseurl }}/assets/images/chrome-dev-token-2.png)
+![](/assets/images/chrome-dev-token-2.png)
 
-![]({{ site.baseurl }}/assets/images/chrome-dev-token-3.png)
+![](/assets/images/chrome-dev-token-3.png)
 
 ## Ok, fine, but how can I make requests from outside the App?
 
@@ -101,7 +101,7 @@ The token is a **Bearer** token in the form of: **71357b62-262d-4fa8-8a5c-ae8314
 4. Copy the authorization token value (`token`)
 5. Copy both user and player IDs (`uid` and `pid`)
 
-![]({{ site.baseurl }}/assets/images/chrome-dev-token-0.png)
+![](/assets/images/chrome-dev-token-0.png)
 
 While listing existing activities on the application, one can note that the request used to retrieve and list existing activities is similar to:
 ```
@@ -113,17 +113,17 @@ and that a real `player.id` value is there, leading to something like:
 ```
 Now on **Postman** a GET request can be made like:
 
-![]({{ site.baseurl }}/assets/images/postman/collection-players-get-all-activities-sample.png)
+![](/assets/images/postman/collection-players-get-all-activities-sample.png)
 
 where `{{api.url}}` must be replaced by its real value, and both `{{player.id}}` and `{{auth.token}}` by the previously copied values for authorization token and player ID, respectively. By sending the request a response similar to the one displayed by **Chrome Dev Tools** will be received.
 
 It is important to mention that the previous request is part of the **Postman** collection included in this Wiki, as well as the mentioned variables (`{{api.url}}`, `{{player.id}}`, `{{auth.token}}`) that are part of the also included **Postman** environment. Please use the links bellow to download both:
 
 **Postman** collection:
-[Open the JSON file]({{ site.baseurl }}/assets/GameBus.postman_collection.json){:target="_blank"}
+[Open the JSON file](/assets/GameBus.postman_collection.json){:target="_blank"}
 
 **Postman** environment:
-[Open the JSON file]({{ site.baseurl }}/assets/GameBus.test.postman_environment.json){:target="_blank"}
+[Open the JSON file](/assets/GameBus.test.postman_environment.json){:target="_blank"}
 
 and be sure to set the existent environment variables with your own values.
 

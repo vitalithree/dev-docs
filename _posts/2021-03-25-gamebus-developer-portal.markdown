@@ -14,7 +14,7 @@ On the developers portal users can: - Create new DataProvider instances - Create
 
 On the admin panel users can: - Control DEV role requests of users - Control PropertyWritePermission requests of users.
 
-![]({{ site.baseurl }}/assets/images/developerPortal/DevPanel.PNG)
+![](/assets/images/developerPortal/DevPanel.PNG)
 
 ## Request Dev Role
 Go to Settings>Developer and then click 'request developer role'.
@@ -24,11 +24,11 @@ You should then wait for the admin to approve/disapprove the respective request.
 ## Create New DataProvider
 Go to DevPanel>Data Providers and then click the orange plus-sign on the top left. Fill in all necessary fields and then Click CREATE DATA PROVIDER.
 
-![]({{ site.baseurl }}/assets/images/developerPortal/DevPanel_CreateNewDataProvider.PNG)
+![](/assets/images/developerPortal/DevPanel_CreateNewDataProvider.PNG)
 
 The newly created provider can then be edited later if needed.
 
-![]({{ site.baseurl }}/assets/images/developerPortal/DevPanel_EditCreatedDataProvider_Type.PNG)
+![](/assets/images/developerPortal/DevPanel_EditCreatedDataProvider_Type.PNG)
 
 ## Create A New Property Write Permission
 
@@ -36,14 +36,14 @@ Go to DevPanel>Data Providers and click on the DataProvider you want to create a
 Click 'manage property permissions and then click on the orange plus sign.
 Choose a gameDescriptor and property and click 'create property permission'.
 
-![]({{ site.baseurl }}/assets/images/developerPortal/DevPanel_ManagePropertyPermissions.PNG)
+![](/assets/images/developerPortal/DevPanel_ManagePropertyPermissions.PNG)
 
 ## Invite to betaCircle
 Go to DevPanel>Data Providers and then click on the DataProvider you want to control the betaCircle for.
 Click 'edit beta circle'. Click 'invite players'.
 Search players and check boxes and then click 'invite players'.
 
-![]({{ site.baseurl }}/assets/images/developerPortal/DevPanel_UpdateCircle-InvitePlayers.PNG)
+![](/assets/images/developerPortal/DevPanel_UpdateCircle-InvitePlayers.PNG)
 
 ## Accept circle invite
 You should accept the circle invite like any other circle invite by going to the 'Circles' tab.
@@ -53,7 +53,7 @@ You should accept the circle invite like any other circle invite by going to the
 Let beta player connect to dataProvider.
 Go to Settings>Data. Click 'connect' for the respective DataProvider and go through the permission questions.
 
-![]({{ site.baseurl }}/assets/images/developerPortal/DevPanel_ConnectToDataProvider.PNG)
+![](/assets/images/developerPortal/DevPanel_ConnectToDataProvider.PNG)
 
 ### Get player's oauth token via callbackUrl
 GameBus will send a POST request to the callbackUrl of the respective DataProvider with the following request parameters:
@@ -71,7 +71,7 @@ Go to DevPanel>Data Providers. Click on the DataProvider you want to control the
 Click 'manage property permissions'. Check the boxes for the PWPs you want to make public.
 Click 'make public'.
 
-![]({{ site.baseurl }}/assets/images/developerPortal/DevPanel_ManagePropertyPermissions.PNG)
+![](/assets/images/developerPortal/DevPanel_ManagePropertyPermissions.PNG)
 
 You should then wait for the admin to approve/disapprove the respective request.
 
