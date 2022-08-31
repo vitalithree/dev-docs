@@ -2,7 +2,7 @@
 
 ## Contribute
 
-Edit files in master barch.
+Edit files in master branch.
 Pull request would be even better.
 
 It is renderred and deployed automatically.
